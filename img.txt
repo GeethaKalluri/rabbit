@@ -1,0 +1,24 @@
+image tag
+<img />
+---------------------------------------------------------
+1.src attribute:- to specify the path of image
+
+2.alt attribute:- to display the description of image when there is difficulty in accessing it for the user.
+
+3.crossorigin:- for fetching the image using CORS request or not. If not na, it will be marked as tainted(browser blocks the accessing of image)
+                values: anonymous and use-credentials
+
+4.decoding attribute:- provides the image decoding hint to the browser
+               values: auto,sync,async.
+
+sync: the rendering will continue only after the image is ready; preferred for a "complete experience"
+
+async: continue the rendering and as soon as image decoding is complete, the browser will update the presentation; preferred
+for performance
+
+auto: will let the browser do what it determines is best approach (not sure who it decides that)
+
+5.loading attribute:- loads the image as the user scrolls it. loads the image whenever it need.
+            values:lazy,eager
+
+6.

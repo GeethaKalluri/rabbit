@@ -1,5 +1,5 @@
 image tag
-<img />
+<img /> tags and their attributes
 ---------------------------------------------------------
 1.src attribute:- to specify the path of image
 
